@@ -3,13 +3,10 @@
 import * as React from "react"
 import Link from "next/link"
 import { SmileIcon } from 'lucide-react'
-import { useTheme } from "next-themes"
 
 import { Button } from "@/components/ui/button"
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme()
-
   return (
     <header className="border-b border-border/40 bg-background">
       <div className="container flex h-16 items-center justify-between px-4">
@@ -50,14 +47,8 @@ export default function Navbar() {
         <Button
           variant="ghost"
           size="icon"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           <span className="sr-only">Toggle theme</span>
-          {theme === "dark" ? (
-            <span className="h-5 w-5">🌞</span>
-          ) : (
-            <span className="h-5 w-5">🌙</span>
-          )}
         </Button>
       </div>
     </header>
