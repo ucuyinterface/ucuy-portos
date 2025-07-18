@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center md:-mt-16 p-6 font-mono gap-[32px] md:gap-[64px]">
+    <div className="flex flex-col flex-1 items-center justify-center md:-mt-20 p-6 font-mono gap-[32px] md:gap-[64px]">
       <header className="flex flex-col items-center gap-4">
         {/* Badge Group */}
         <div className="inline-flex items-center gap-4 ps-1 pe-2 py-1 rounded-2xl bg-[#FEF2F2] text-red-600">
@@ -44,7 +44,7 @@ export default function Home() {
           2024 Work hub of Ucuy Interface.
         </h1>
 
-        <p className="text-red-500 md:text-sm text-lg">
+        <p className="text-red-500 text-sm md:text-lg">
           "I design products and brands with the highest craft standards."
         </p>
 
