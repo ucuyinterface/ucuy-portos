@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 font-mono gap-[64px]">
+    <div className="flex flex-col flex-1 items-center justify-center md:-mt-16 p-6 font-mono gap-[32px] md:gap-[64px]">
       <header className="flex flex-col items-center gap-4">
         {/* Badge Group */}
-        <div className="inline-flex items-center gap-4 px-6 py-3 rounded-2xl bg-[#FEF2F2] text-red-600">
-          <span className="text-sm font-medium">Open to Work</span>
-          <span className="flex items-center gap-1 text-sm font-medium">
+        <div className="inline-flex items-center gap-4 ps-1 pe-2 py-1 rounded-2xl bg-[#FEF2F2] text-red-600">
+          <span className="text-xs md:text-sm font-medium rounded-2xl bg-white px-2 py-1">Open to Work</span>
+          <span className="flex items-center gap-1 text-xs md:text-sm font-medium">
             Get in touch
             <svg
               width="16"
@@ -35,20 +35,20 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="flex flex-col items-center text-center max-w-3xl gap-4">
-        <p className="text-[var(--Colors-Text-text-tertiary, #475467)] text-lg font-[400] leading-[28px] font-[DM Mono]">
+      <main className="flex flex-col items-center text-center max-w-xl md:max-w-3xl gap-4">
+        <p className="text-[var(--Colors-Text-text-tertiary, #475467)] text-md md:text-lg font-[400] leading-[28px] font-[DM Mono]">
           Hello! This is Ucuy Interface crafting something.
         </p>
 
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-2xl md:text-4xl font-bold">
           2024 Work hub of Ucuy Interface.
         </h1>
 
-        <p className="text-red-500 text-lg">
+        <p className="text-red-500 md:text-sm text-lg">
           "I design products and brands with the highest craft standards."
         </p>
 
-        <p className="text-[var(--Colors-Text-text-tertiary, #475467)] text-lg font-[400] leading-[28px] font-[DM Mono]">
+        <p className="text-[var(--Colors-Text-text-tertiary, #475467)] text-xs md:text-lg font-[400] leading-[20px] md:leading-[28px] font-[DM Mono]">
           I am a student of Information Systems with a strong passion for the world of product design. I enjoy creating digital products such as websites or mobile apps, with visually appealing designs to ensure that users find it easy to use the digital products I create.
         </p>
       </main>
