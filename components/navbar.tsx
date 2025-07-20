@@ -72,11 +72,11 @@ const Navbar = () => {
             <SheetContent side="top" className="max-h-screen overflow-auto !pb-0">
               <SheetHeader>
                 <SheetTitle>
-                                      <SheetClose asChild key="/">
-                  <Link href="/" className={`w-fit flex items-center space-x-2 p-2 rounded-md transition-colors hover:bg-accent border border-gray-200 shadow-sm ${pathname === '/' ? 'bg-accent/80' : ''}`}>
-                    <SmileIcon className="h-6 w-6" />
-                  </Link>
-                </SheetClose>
+                  <SheetClose asChild key="/">
+                    <Link href="/" className={`w-fit flex items-center space-x-2 p-2 rounded-md transition-colors hover:bg-accent border border-gray-200 shadow-sm ${pathname === '/' ? 'bg-accent/80' : ''}`}>
+                      <SmileIcon className="h-6 w-6" />
+                    </Link>
+                  </SheetClose>
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col p-4">
