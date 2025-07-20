@@ -14,7 +14,6 @@ export default function Detail() {
         <h2 className='text-4xl flex items-center ps-6 font-semibold'>
           <span className='flex-1 pb-2 border-b border-gray-200 whitespace-pre'>Education </span><span>-</span>
         </h2>
-        <p className='text-gray-600 flex flex-col items-end'>
           <ul className="space-y-2 flex flex-col items-end">
             <li className="flex items-start gap-x-2">
               <span>Diploma in Information System - UPN Veteran Jakarta,
@@ -29,9 +28,7 @@ export default function Detail() {
               <span>Science - 80 Senior High School Jakarta (2018 - 2021)</span>
               <span className="text-xl">•</span>
             </li>
-
           </ul>
-        </p>
       </div>
 
       <div className='flex flex-col gap-2'>
